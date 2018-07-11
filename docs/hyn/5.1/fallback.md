@@ -64,7 +64,7 @@ class FallbackHandler
                 'prefix' => '',
                 'strict' => true,
                 'engine' => null,
-            ]);
+            ]]);
         }    
     
         return $next($request);
